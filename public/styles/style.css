@@ -1,0 +1,78 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #2081C3;
+    color: white;
+    padding: 1.5rem 6rem;
+    display: flex;
+}
+
+nav a {
+    color: #F7F9F9;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    font-weight: bold;
+}
+
+.addMovie-section {
+    margin: 50px 100px;
+}    
+
+button {
+    background-color: white;
+    color: #007bff;
+    border-style: none;
+    padding: 0;
+}
+.celebrity-btn {
+    padding-left: 10px;
+    font-size: 20px;
+    color:#2081C3;
+    height: 25px;
+    margin: 20px 90px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    color:#2081C3;
+}
+.card-link {
+    padding-right: 10px;
+}
+.new-celebrity-container {
+    margin-top: 100px;
+}
+.new-celebrity-container h3 {
+    margin: 0 30px;
+    color:#2081C3; 
+}
+.add-celebrity-btn{
+    margin: 10px 100px;
+}
+.show-container {
+    margin-top: 50px;
+}
+.select-celebrity {
+    width: 300px;
+    color: #007bff;
+}
+.select-celebrity option {
+    font-size: 18px;
+}
+.add-btn {
+    margin: 20px 70px;
+    font-size: 20px;
+}
+.show-container li {
+    list-style: none;
+}
+.show-container h4 {
+    color: #2081C3;
+}

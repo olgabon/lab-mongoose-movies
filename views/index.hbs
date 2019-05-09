@@ -1,0 +1,19 @@
+
+    <h2>List of Movies</h1>
+<div class="container">
+  <div class="row">
+    {{#each movies}}
+        <div class="col-sm-4">
+            <div class="card" style="width: 25rem;">
+            <div class="card-body">
+                <h5 class="card-title">Title: <b>{{title}}</b></h5>
+                <h6 class="card-subtitle mb-2 text-muted">Director: {{director}}</h6>
+                <p class="card-text">Year: {{year}}</p>
+                <a href="/details/{{_id}}">More information</a> <br>
+                <a href="/delete?id={{_id}}" class="card-link"> Delete</a>
+            </div>
+            </div>
+       </div>
+    {{/each}}
+  </div>
+</div>

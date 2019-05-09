@@ -1,0 +1,24 @@
+
+<div class="container new-celebrity-container">
+<h3>New Celebrity</h3> <br>
+<form action="/celebrities/new" method="post">
+  <div class="form-group">
+  <label for="">Name:</label>
+  <input type="text" name="name">
+  </div>
+    <div class="form-group">
+  <label for="">Occupation:</label>
+  <input type="text" name="occupation">
+  </div>
+    <div class="form-group">
+  <label for="">Catch Phrase:</label>
+  <input type="text" name="catchPhrase">
+  </div>
+<select class='select-celebrity' name="movies" multiple>
+  {{#each movies}}
+    <option value="{{this._id}}">{{this.title}}</option>
+  {{/each}}
+ </select> <br>
+  <button type="submit" class='add-btn'>Add Celebrity</button>
+</form>
+</div>
